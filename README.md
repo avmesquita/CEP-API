@@ -1,5 +1,5 @@
 # API de CEP Simples
-API de CEP com banco de dados SQLite
+CEP API with SQLite Database
 
 - api.CEP 
   >.NET Core REST API Service
