@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <UserSecretsId>783d67cc-e01b-41ed-a687-438450760275</UserSecretsId>
+    <Company>AVM Sistemas</Company>
+    <Product>api.CEP with SQLite</Product>
+    <Description>This is a REST API to find CEPs</Description>
+    <Authors>Andre Mesquita, AVM Sistemas</Authors>
+    <Copyright>AVM Sistemas</Copyright>
+    <PackageLicenseUrl>https://www.avmsistemas.net</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.7.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.110" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\..\..\Program Files\System.Data.SQLite\2013\bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+
+</Project>
