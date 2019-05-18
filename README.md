@@ -8,5 +8,5 @@ API de CEP com banco de dados SQLite
   > NodeJs REST API Service
   
 - XlsToSQLite.CEP
-  > .NET application to convert CEP from Excel file to SQLite
+  > .NET application to convert CEP from Excel file to SQLite Database
   
