@@ -9,6 +9,15 @@
   </ul>
 </p>
 
+<h2>About this Central Database</h2>
+<p>
+  <ul>
+    <li><a href="https://www.correios.com.br/a-a-z/dne" target="_blank">Diretório Nacional de Endereços</a></li>
+    <li><a href="https://www.correios.com.br/precisa-de-ajuda/o-que-e-cep-e-por-que-usa-lo/bases-de-cep" target="_blank">Bases de CEP</a></li>
+    <li><a href="http://shopping.correios.com.br/wbm/store/script/wbm2400902p01.aspx?cd_company=ErZW8Dm9i54=&cd_department=SsNp3FlaUpM=" target="_blank">Loja dos Correios</a></li>
+  </ul>
+</p>
+
 <h2>.NET Core REST API Service</h2>
 <p>
   <ul>
