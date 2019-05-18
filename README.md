@@ -1,12 +1,19 @@
-# API de CEP Simples
-CEP API with SQLite Database
+# CEP API
 
-- api.CEP 
-  >.NET Core REST API Service
+  > CEP API with SQLite Database
 
-- node.CEP
-  > NodeJs REST API Service
+- What is CEP?<br>
+  - [Wikipedia](https://pt.wikipedia.org/wiki/Código_de_Endereçamento_Postal)<br>
+  - [Correios](https://www.correios.com.br/precisa-de-ajuda/o-que-e-cep-e-por-que-usa-lo)<br>
+  - [Significados](https://www.significados.com.br/cep/)<br>
+
+>.NET Core REST API Service
+  - api.CEP 
   
-- XlsToSQLite.CEP
-  > .NET application to convert CEP from Excel file to SQLite Database
+> NodeJs REST API Service
+  - node.CEP
+  
+> .NET application to convert CEP from Excel file to SQLite Database
+  - XlsToSQLite.CEP
+  
   
