@@ -1,4 +1,4 @@
-# CEP API with SQLite Database
+# CEP > Rest API with SQLite Database
 
 <h2> What is CEP?</h2>
 <p>
