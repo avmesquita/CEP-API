@@ -1,4 +1,4 @@
-# CEP API with SQLite Database
+# CEP > Rest API with SQLite Database
 
 <h2> What is CEP?</h2>
 <p>
@@ -35,6 +35,6 @@
 <h2> .NET application to convert CEP from Excel file to SQLite Database</h2>
 <p>
   <ul>
-    <li>XlsToSQLite.CEP</li>
+    <li>XlsToSQLite.CEP<br>ps: Use x32/64 app explicity with your SQLite plataform type</li>
   </ul>
 </p>  
