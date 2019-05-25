@@ -29,7 +29,7 @@
 <p>
   <ul>
     <li>node.CEP</li>
-    <li><a href="https://cloud.docker.com/u/avmesquita/repository/docker/avmesquita/apicepnode">Docker Hub Image</a></li>
+    <li><a href="https://hub.docker.com/r/avmesquita/apicepnode">Docker Hub Image</a></li>
   </ul>
 </p>  
   
