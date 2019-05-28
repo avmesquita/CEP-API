@@ -31,6 +31,14 @@ app.get('/api/v1/cep/:filter', (req, res) => {
     .then(data => res.json(data))
 })
 
+app.get('/', (req, res) => {
+	
+  hostname = request.headers.host
+  
+  res.json('{ "usage" : "${hostname}/api/v1/cep/<value>" }')
+})
+
+
 app.listen(port, () => {
   console.log(`CEP REST API started on http://localhost:${port}\nPress Ctrl+C to terminate.`)
 })
