@@ -31,14 +31,15 @@ app.get('/api/v1/cep/:filter', (req, res) => {
     .then(data => res.json(data))
 })
 
-app.get('/', (req, res) => {
-	
-  hostname = req.headers.host
-  
-  res.json('{ "usage" : "${hostname}/api/v1/cep/<value>" }')
+app.get('/', (req, res) => {  
+
+  commandDefault = "http://" + req.headers.host + "/api/v1/cep/<value>"
+
+  defaultMessage = JSON.stringify({ 'usage' : commandDefault });
+
+  res.json(defaultMessage)
 })
 
-
 app.listen(port, () => {
-  console.log(`CEP REST API started on http://localhost:${port}\nPress Ctrl+C to terminate.`)
+  console.log(`\nCEP REST API started on http://localhost:${port}\n\nPress Ctrl+C to terminate.`)
 })
