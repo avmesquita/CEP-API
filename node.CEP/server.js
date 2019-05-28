@@ -33,7 +33,7 @@ app.get('/api/v1/cep/:filter', (req, res) => {
 
 app.get('/', (req, res) => {
 	
-  hostname = request.headers.host
+  hostname = req.headers.host
   
   res.json('{ "usage" : "${hostname}/api/v1/cep/<value>" }')
 })
