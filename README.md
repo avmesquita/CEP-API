@@ -28,8 +28,17 @@
 <h2> NodeJs REST API Service</h2>
 <p>
   <ul>
-    <li>node.CEP</li>
+    <li>node.CEP</li>    
     <li><a href="https://hub.docker.com/r/avmesquita/apicepnode">Docker Hub Image</a></li>
+  </ul>
+  <h4>=> To Build</h4>
+  <ul>
+    <li>$> npm i -save express</li>
+    <li>$> npm i -save body-parser</li>
+    <li>$> npm i -save path</li>
+    <li>$> npm i -save knex</li>
+    <li>$> npm i -save sqlite3</li>
+    <li>$> node server.js</li>
   </ul>
 </p>  
   
