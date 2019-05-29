@@ -33,14 +33,14 @@
     <li><a href="http://consulta-cep-api-cep.apps.us-east-2.online-starter.openshift.com/">Openshift Starter test endpoint</a></li>
   </ul>
   <h4>=> To Build</h4>
-  <ul>
-    <li>$> npm i -save express</li>
-    <li>$> npm i -save body-parser</li>
-    <li>$> npm i -save path</li>
-    <li>$> npm i -save knex</li>
-    <li>$> npm i -save sqlite3</li>
-    <li>$> node server.js</li>
-  </ul>
+  <pre>
+    $> npm i -save express
+    $> npm i -save body-parser
+    $> npm i -save path
+    $> npm i -save knex
+    $> npm i -save sqlite3
+    $> node server.js
+  </pre>
 </p>  
   
 <h2> .NET application to convert CEP from Excel file to SQLite Database</h2>
