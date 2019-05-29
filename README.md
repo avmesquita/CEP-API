@@ -31,9 +31,9 @@
     <li>node.CEP</li>    
     <li><a href="https://hub.docker.com/r/avmesquita/apicepnode">Docker Hub Image</a></li>
     <li><a href="http://consulta-cep-api-cep.apps.us-east-2.online-starter.openshift.com/">Openshift Starter test endpoint</a></li>
-  </ul>
-  <h4>=> To Build</h4>
+  </ul>  
   <pre>
+    <b>=> To Build</b>
     $> npm i -save express
     $> npm i -save body-parser
     $> npm i -save path
