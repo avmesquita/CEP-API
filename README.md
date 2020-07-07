@@ -33,15 +33,6 @@
     <li><a href="https://hub.docker.com/r/avmesquita/apicepnode">Docker Hub Image</a></li>
     <li><a href="http://consulta-cep-api-cep.apps.us-east-2.online-starter.openshift.com/">Openshift Starter test endpoint</a></li>
   </ul>  
-  <pre>
-    <b>=> To Build</b>
-    $> npm i -save express
-    $> npm i -save body-parser
-    $> npm i -save path
-    $> npm i -save knex
-    $> npm i -save sqlite3
-    $> node server.js
-  </pre>
 </p>  
   
 <h2> .NET application to convert CEP from Excel file to SQLite Database</h2>
